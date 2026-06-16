@@ -1,0 +1,17 @@
+name: standard_flutter_app
+description: "Audio Video Live App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  agora_rtc_engine: ^6.3.0
+  permission_handler: ^11.3.3
+
+flutter:
+  uses-material-design: true
